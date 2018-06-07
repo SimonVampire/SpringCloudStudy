@@ -13,5 +13,12 @@
         <module name="SpringCloudStudy" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eurekaserver" target="1.8" />
+      <module name="service-consumer-feign" target="1.8" />
+      <module name="service-consumer-resttemp" target="1.8" />
+      <module name="service-provider" target="1.8" />
+      <module name="SpringCloudStudy" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
